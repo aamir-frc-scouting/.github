@@ -2,7 +2,7 @@
 
 **169,000+ data points** · **11 events** · **6 apps** · **4 seasons**
 
-Four years of building scouting apps for [FRC Team 1730 (Team Driven)](https://www.thebluealliance.com/team/1730) in Lee's Summit, MO—from learning as a freshman scout lead to shipping cross-platform Flutter apps as a senior.
+Four years of building scouting apps for [FRC Team 1730 (Team Driven)](https://www.thebluealliance.com/team/1730) in Lee's Summit, MO—from learning as a freshman scout lead to shipping cross-platform Flutter apps as a senior. [View all seasons →](https://www.thebluealliance.com/team/1730)
 
 **[View the full story →](https://aamir-frc-scouting.github.io/.github/)**
 
@@ -14,17 +14,17 @@ Four years of building scouting apps for [FRC Team 1730 (Team Driven)](https://w
 Freshman year. I served as scout lead while seniors Heath Crump and Caden Findlay built and taught me the app. Team 1730 won the [Newton Division](https://www.thebluealliance.com/event/2022new) and competed on [Einstein](https://www.thebluealliance.com/event/2022cmptx) as 2nd pick of Alliance 3. [View 2022 season →](https://www.thebluealliance.com/team/1730/2022)
 
 ### 2023 · Charged Up · Solo Developer
-Sophomore year. I took over as the team's sole scouting app developer—Java, Android, QR codes into Excel. Struggled, learned, got it done.
+Sophomore year. I took over as the team's sole scouting app developer—Java, Android, QR codes into Excel. Struggled, learned, got it done. [View 2023 season →](https://www.thebluealliance.com/team/1730/2023)
 
 **58,032 data points** across 3 events including Championship
 
 ### 2024 · Crescendo · Match + Pit Apps
-Junior year. Built a second app to solve pit scouting. Maintained both through the season.
+Junior year. Built a second app to solve pit scouting. Maintained both through the season. [View 2024 season →](https://www.thebluealliance.com/team/1730/2024)
 
 **61,384 data points** (match + pit) across 5 events including Championship
 
 ### 2025 · Reefscape · Flutter + Python + SQLite
-Senior year. Rewrote mobile apps in Dart/Flutter for cross-platform compatibility. Built a Python/customtkinter desktop intake app that scans QR codes, validates fields, and inserts into SQLite—bridging offline collection with queryable storage. Used at GKC and Worlds.
+Senior year. Rewrote mobile apps in Dart/Flutter for cross-platform compatibility. Built a Python/customtkinter desktop intake app that scans QR codes, validates fields, and inserts into SQLite—bridging offline collection with queryable storage. Used at GKC and Worlds. [View 2025 season →](https://www.thebluealliance.com/team/1730/2025)
 
 **50,085 data points** (match + pit) across 3 events including Championship
 
@@ -59,7 +59,7 @@ All apps use **QR code export** for offline-first data collection—reliable und
 
 ## Links
 
-- [Team 1730 on The Blue Alliance](https://www.thebluealliance.com/team/1730)
+- [Team 1730 on The Blue Alliance (all seasons)](https://www.thebluealliance.com/team/1730)
 - [Full project site](https://aamir-frc-scouting.github.io/.github/)
 
 ---
