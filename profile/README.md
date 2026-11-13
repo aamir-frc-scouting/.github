@@ -1,14 +1,69 @@
 # FRC Scouting Apps
 
-I’m [Aamir Abatiyow](https://github.com/AamirAbatiyow). I was on FRC Team 1730 (Team Driven) from August 2021 to May 2025 and became the team’s sole scouting app developer in my sophomore year.
+**169,000+ data points** · **11 events** · **6 apps** · **4 seasons**
 
-I worked on six scouting apps and built five independently. Four were Android-only apps built with Android Studio. In my senior year, I built two cross-platform apps with Flutter for match and pit scouting.
+Four years of building scouting apps for [FRC Team 1730 (Team Driven)](https://www.thebluealliance.com/team/1730) in Lee's Summit, MO—from learning as a freshman scout lead to shipping cross-platform Flutter apps as a senior. [View all seasons →](https://www.thebluealliance.com/team/1730)
 
-## Featured projects
+**[View the full story →](https://aamir-frc-scouting.github.io/.github/)**
 
-| App | What it does |
-| --- | --- |
-| [2025 Match Scouting](https://github.com/aamir-frc-scouting/frc-scouting-app-2025) | Records how robots perform during matches. |
-| [2025 Pit Scouting](https://github.com/aamir-frc-scouting/frc_pit_scouting_app_2025) | Records robot capabilities and notes from conversations with teams in the pits. |
+---
 
-[Browse the scouting app repositories](https://github.com/orgs/aamir-frc-scouting/repositories)
+## The Timeline
+
+### 2022 · Rapid React · Learning
+Freshman year. I served as scout lead while seniors Heath Crump and Caden Findlay built and taught me the app. Team 1730 won the [Newton Division](https://www.thebluealliance.com/event/2022new) and competed on [Einstein](https://www.thebluealliance.com/event/2022cmptx) as 2nd pick of Alliance 3. [View 2022 season →](https://www.thebluealliance.com/team/1730/2022)
+
+### 2023 · Charged Up · Solo Developer
+Sophomore year. I took over as the team's sole scouting app developer—Java, Android, QR codes into Excel. Struggled, learned, got it done. [View 2023 season →](https://www.thebluealliance.com/team/1730/2023)
+
+**58,032 data points** across 3 events including Championship
+
+### 2024 · Crescendo · Match + Pit Apps
+Junior year. Built a second app to solve pit scouting. Maintained both through the season. [View 2024 season →](https://www.thebluealliance.com/team/1730/2024)
+
+**61,384 data points** (match + pit) across 5 events including Championship
+
+### 2025 · Reefscape · Flutter + Python + SQLite
+Senior year. Rewrote mobile apps in Dart/Flutter for cross-platform compatibility. Built a Python/customtkinter desktop intake app that scans QR codes, validates fields, and inserts into SQLite—bridging offline collection with queryable storage. Used at GKC and Worlds. [View 2025 season →](https://www.thebluealliance.com/team/1730/2025)
+
+**50,085 data points** (match + pit) across 3 events including Championship
+
+---
+
+## Repositories
+
+| Year | Game | Type | Platform | Stack | Repo |
+|------|------|------|----------|-------|------|
+| 2023 | Charged Up | Match | Android | Java | [frc-scouting-app-2023](https://github.com/aamir-frc-scouting/frc-scouting-app-2023) |
+| 2024 | Crescendo | Match | Android | Java | [frc-scouting-app-2024](https://github.com/aamir-frc-scouting/frc-scouting-app-2024) |
+| 2024 | Crescendo | Pit | Android | Java | [frc-pit-scouting-app-2024](https://github.com/aamir-frc-scouting/frc-pit-scouting-app-2024) |
+| 2025 | Reefscape | Match | Cross-Platform | Flutter | [frc-scouting-app-2025](https://github.com/aamir-frc-scouting/frc-scouting-app-2025) |
+| 2025 | Reefscape | Pit | Cross-Platform | Flutter | [frc_pit_scouting_app_2025](https://github.com/aamir-frc-scouting/frc_pit_scouting_app_2025) |
+| 2025 | Reefscape | Intake | Desktop | Python/SQLite | [frc-database](https://github.com/aamir-frc-scouting/frc-database) |
+
+---
+
+## How It Works
+
+All apps use **QR code export** for offline-first data collection—reliable under FRC competition Wi-Fi restrictions.
+
+**2023–2024:** Scouts fill forms → QR codes → scanned into Excel workbooks (tabs per data set)
+
+**2025:** Scouts fill forms → QR codes → Python intake app validates and inserts into SQLite
+
+```
+📱 Scout fills form → 📊 QR code → 📷 Scanned → 🗄️ SQLite (2025) or 📈 Excel (2023–24)
+```
+
+---
+
+## Links
+
+- [Team 1730 on The Blue Alliance (all seasons)](https://www.thebluealliance.com/team/1730)
+- [Full project site](https://aamir-frc-scouting.github.io/.github/)
+
+---
+
+**Aamir Abatiyow** · CS student · [github.com/AamirAbatiyow](https://github.com/AamirAbatiyow)
+
+*Stats verified via [The Blue Alliance](https://www.thebluealliance.com)*
