@@ -1,6 +1,6 @@
 # FRC Scouting Apps
 
-**169,000+ data points** · **11 events** · **5 apps** · **4 seasons**
+**169,000+ data points** · **11 events** · **6 apps** · **4 seasons**
 
 Four years of building scouting apps for [FRC Team 1730 (Team Driven)](https://www.thebluealliance.com/team/1730) in Lee's Summit, MO—from learning as a freshman scout lead to shipping cross-platform Flutter apps as a senior.
 
@@ -39,6 +39,7 @@ Senior year. Rewrote mobile apps in Dart/Flutter for cross-platform compatibilit
 | 2024 | Crescendo | Pit | Android | Java | [frc-pit-scouting-app-2024](https://github.com/aamir-frc-scouting/frc-pit-scouting-app-2024) |
 | 2025 | Reefscape | Match | Cross-Platform | Flutter | [frc-scouting-app-2025](https://github.com/aamir-frc-scouting/frc-scouting-app-2025) |
 | 2025 | Reefscape | Pit | Cross-Platform | Flutter | [frc_pit_scouting_app_2025](https://github.com/aamir-frc-scouting/frc_pit_scouting_app_2025) |
+| 2025 | Reefscape | Intake | Desktop | Python/SQLite | Private (data scrubbing) |
 
 ---
 
