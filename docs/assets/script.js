@@ -45,30 +45,26 @@ function formatNumber(num) {
 }
 
 // === Intersection Observer for Timeline Sections ===
+// Progressive enhancement: content is visible by default.
+// We add 'js-animations' to <html> to enable hiding, but only if 
+// the user hasn't requested reduced motion.
 function setupScrollAnimations() {
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   
+  // Never hide content for reduced motion users or if they prefer no animations
   if (prefersReducedMotion) {
-    document.querySelectorAll('.year-section').forEach(section => {
-      section.style.opacity = '1';
-      section.style.transform = 'none';
-    });
     return;
   }
   
-  const sections = document.querySelectorAll('.year-section');
+  // Add class to enable CSS-based initial hiding (progressive enhancement)
+  document.documentElement.classList.add('js-animations');
   
-  sections.forEach(section => {
-    section.style.opacity = '0';
-    section.style.transform = 'translateY(30px)';
-    section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-  });
+  const sections = document.querySelectorAll('.year-section');
   
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0)';
+        entry.target.classList.add('revealed');
         observer.unobserve(entry.target);
       }
     });

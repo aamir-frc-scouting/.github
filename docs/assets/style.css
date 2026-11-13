@@ -284,6 +284,28 @@ strong {
   padding-bottom: 0;
 }
 
+/* Progressive enhancement: only hide sections when JS has loaded
+   and user hasn't requested reduced motion. Content is visible by default. */
+html.js-animations .year-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+html.js-animations .year-section.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Never hide content for reduced motion users */
+@media (prefers-reduced-motion: reduce) {
+  html.js-animations .year-section {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 .year-section::before {
   content: '';
   position: absolute;
