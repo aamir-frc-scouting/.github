@@ -395,9 +395,7 @@
           <p>Senior year, I wanted to do it right. Three years of Java/Android had taught me a lot, but I wanted a more modern, professional setup. I rewrote both scouting apps from scratch in <strong>Dart/Flutter</strong>.</p>
           <p>Flutter gave me cross-platform compatibility—the same codebase runs on Android, iOS, web, and desktop. The UI is cleaner, the code is more maintainable, and the development experience is faster. The mobile apps still generate QR codes with delimited <code>*</code>-separated fields—reliable under competition Wi-Fi restrictions.</p>
           <p>But this year I also built the other side: a <strong>Python/customtkinter desktop intake app</strong>. A volunteer scans each QR string into a text box, the app validates all 23+ fields, and inserts rows into a <strong>SQLite</strong> <code>MATCH_SCOUTING</code> table. It also pulls Statbotics data for cross-referencing. We used it from Greater KC through Worlds—finally bridging offline QR collection with queryable SQL storage.</p>
-          <!-- TODO: Add repo link when frc-database is public
-          <p><a href="https://github.com/aamir-frc-scouting/frc-database" target="_blank" rel="noopener">View intake app repo →</a></p>
-          -->
+          <p><a href="https://github.com/aamir-frc-scouting/frc-database" target="_blank" rel="noopener">View intake & database repo →</a></p>
           <p>This was my last season with Team 1730. I wanted to leave the team with apps that could be maintained and extended by whoever comes next.</p>
         </div>
 
@@ -487,18 +485,12 @@
         <div class="apps-grid">
           <div class="app-card">
             <div class="app-info">
-              <h3>Desktop Intake App</h3>
+              <h3>Intake & Database</h3>
               <p class="app-desc">QR scanner → validates 23 fields → SQLite</p>
-              <!-- TODO: Uncomment when frc-database is public
               <a href="https://github.com/aamir-frc-scouting/frc-database" class="repo-link" target="_blank" rel="noopener">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
                 frc-database
               </a>
-              -->
-              <span class="repo-link" style="color: var(--color-text-subtle);">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M4 5.5a.5.5 0 01.5-.5h7a.5.5 0 010 1h-7a.5.5 0 01-.5-.5zm0 2a.5.5 0 01.5-.5h7a.5.5 0 010 1h-7a.5.5 0 01-.5-.5zm0 2a.5.5 0 01.5-.5h4a.5.5 0 010 1h-4a.5.5 0 01-.5-.5z"/><path d="M2 2a2 2 0 012-2h8a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V2zm10-1H4a1 1 0 00-1 1v12a1 1 0 001 1h8a1 1 0 001-1V2a1 1 0 00-1-1z"/></svg>
-                repo private (data scrubbing)
-              </span>
             </div>
             <div class="app-screenshot">
               <img src="assets/images/intake_2025_ui.png" alt="Python customtkinter intake app - Match Data Entry" loading="lazy">
@@ -737,8 +729,7 @@
             <td>Desktop</td>
             <td>Python/SQLite</td>
             <td>23</td>
-            <!-- TODO: Update link when frc-database is public -->
-            <td><span style="color: var(--color-text-subtle);">Private</span></td>
+            <td><a href="https://github.com/aamir-frc-scouting/frc-database" target="_blank" rel="noopener">Repo →</a></td>
           </tr>
         </tbody>
       </table>

@@ -39,7 +39,7 @@ Senior year. Rewrote mobile apps in Dart/Flutter for cross-platform compatibilit
 | 2024 | Crescendo | Pit | Android | Java | [frc-pit-scouting-app-2024](https://github.com/aamir-frc-scouting/frc-pit-scouting-app-2024) |
 | 2025 | Reefscape | Match | Cross-Platform | Flutter | [frc-scouting-app-2025](https://github.com/aamir-frc-scouting/frc-scouting-app-2025) |
 | 2025 | Reefscape | Pit | Cross-Platform | Flutter | [frc_pit_scouting_app_2025](https://github.com/aamir-frc-scouting/frc_pit_scouting_app_2025) |
-| 2025 | Reefscape | Intake | Desktop | Python/SQLite | Private (data scrubbing) |
+| 2025 | Reefscape | Intake | Desktop | Python/SQLite | [frc-database](https://github.com/aamir-frc-scouting/frc-database) |
 
 ---
 
