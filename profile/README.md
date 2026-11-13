@@ -11,7 +11,7 @@ Four years of building scouting apps for [FRC Team 1730 (Team Driven)](https://w
 ## The Timeline
 
 ### 2022 · Rapid React · Learning
-Freshman year. I served as scout lead while seniors Heath Crump and Caden Findlay built and taught me the app. Team 1730 won the [Newton Division](https://www.thebluealliance.com/event/2022new) and competed on [Einstein](https://www.thebluealliance.com/team/1730/2022) as 2nd pick of Alliance 3.
+Freshman year. I served as scout lead while seniors Heath Crump and Caden Findlay built and taught me the app. Team 1730 won the [Newton Division](https://www.thebluealliance.com/event/2022new) and competed on [Einstein](https://www.thebluealliance.com/event/2022cmptx) as 2nd pick of Alliance 3. [View 2022 season →](https://www.thebluealliance.com/team/1730/2022)
 
 ### 2023 · Charged Up · Solo Developer
 Sophomore year. I took over as the team's sole scouting app developer—Java, Android, QR codes into Excel. Struggled, learned, got it done.
