@@ -24,7 +24,7 @@ Junior year. Built a second app to solve pit scouting and maintained both throug
 **61,384 data points** (match + pit) across 5 events including Championship
 
 ### 2025 · Reefscape · Flutter + Python + SQLite
-Senior year. Rewrote both mobile apps in Dart/Flutter, used on Android tablets at events. Built a Python/customtkinter desktop intake app that takes scanned QR strings, validates fields, and inserts them into SQLite. At Heartland, QR data still went into Excel through a Python script. The SQLite intake app ran from GKC through Worlds. [View 2025 season](https://www.thebluealliance.com/team/1730/2025)
+Senior year. Rewrote both mobile apps in Dart/Flutter and deployed them to every scout's own phone, Android or iOS. Built a Python/customtkinter desktop intake app that takes scanned QR strings, validates fields, and inserts them into SQLite. At Heartland, QR data still went into Excel through a Python script. The SQLite intake app ran from GKC through Worlds. [View 2025 season](https://www.thebluealliance.com/team/1730/2025)
 
 **50,085 data points** (match + pit) across 3 events including Championship
 
@@ -37,15 +37,15 @@ Senior year. Rewrote both mobile apps in Dart/Flutter, used on Android tablets a
 | 2023 | Charged Up | Match | Android | Java | [frc-scouting-app-2023](https://github.com/aamir-frc-scouting/frc-scouting-app-2023) |
 | 2024 | Crescendo | Match | Android | Java | [frc-scouting-app-2024](https://github.com/aamir-frc-scouting/frc-scouting-app-2024) |
 | 2024 | Crescendo | Pit | Android | Java | [frc-pit-scouting-app-2024](https://github.com/aamir-frc-scouting/frc-pit-scouting-app-2024) |
-| 2025 | Reefscape | Match | Android tablets | Flutter | [frc-scouting-app-2025](https://github.com/aamir-frc-scouting/frc-scouting-app-2025) |
-| 2025 | Reefscape | Pit | Android tablets | Flutter | [frc_pit_scouting_app_2025](https://github.com/aamir-frc-scouting/frc_pit_scouting_app_2025) |
+| 2025 | Reefscape | Match | Android and iOS phones | Flutter | [frc-scouting-app-2025](https://github.com/aamir-frc-scouting/frc-scouting-app-2025) |
+| 2025 | Reefscape | Pit | Android and iOS phones | Flutter | [frc_pit_scouting_app_2025](https://github.com/aamir-frc-scouting/frc_pit_scouting_app_2025) |
 | 2025 | Reefscape | Intake | Desktop | Python/SQLite | [frc-database](https://github.com/aamir-frc-scouting/frc-database) |
 
 ---
 
 ## How It Works
 
-Data moves from the tablets to a laptop by **QR code**, so collection works offline under FRC competition Wi-Fi restrictions.
+Data moves from the scouting devices to a laptop by **QR code**, so collection works offline under FRC competition Wi-Fi restrictions.
 
 **2023–2024:** The match apps show a QR code that is scanned into an Excel workbook with a tab per data set, then analyzed with filtering and pivot tables. The 2024 pit app wrote delimited strings to a text file, and QR codes were generated separately for the same scanner workflow.
 
